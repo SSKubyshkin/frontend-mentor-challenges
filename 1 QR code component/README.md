@@ -16,13 +16,13 @@ https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Frontend Mentor QR code component](https://user-images.githubusercontent.com
+/87899775/155300072-92a27b95-f4e2-458c-9b74-5664435b2936.png)
+
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
