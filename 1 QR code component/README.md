@@ -1,4 +1,4 @@
-# WORKS IN PROGRESS, THIS IS A TEMPLATE
+# WORKS IN PROGRESS, THIS IS A TEMPLATE OF README.MD
 
 # Frontend Mentor - QR code component solution
 
