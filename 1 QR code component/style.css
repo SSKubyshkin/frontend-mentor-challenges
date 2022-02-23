@@ -17,9 +17,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.main {
+.card {
   background-color: white;
   width: 320px;
   height: 500px;
@@ -36,7 +37,7 @@ body {
 
 .title {
   color: #1f3251;
-  font-size: 21px;
+  font-size: 1.3125rem;
   font-weight: 700;
   text-align: center;
   padding: 0px 16px;
@@ -45,11 +46,16 @@ body {
 
 .description {
   color: #7b879d;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
   text-align: center;
   padding: 0px 16px;
   margin-top: 10px;
+}
+
+.attribution {
+  margin: 0 auto;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
