@@ -31,14 +31,16 @@ https://user-images.githubusercontent.com/87899775/155307444-c6554b72-523e-4988-
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](
+https://www.frontendmentor.io/solutions/qr-code-component-hLFH5K5_S)
+- Live Site URL: [CodePen](https://codepen.io/SSKubyshkin/full/abVKYvJ)
 
 ## My process
 
 ### Built with
 
 - HTML5
+- Flexbox
 - [SASS](https://sass-lang.com/) - CSS preprocessor
 
 ### What I learned
