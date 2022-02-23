@@ -20,10 +20,14 @@ https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
 ## Overview
 
-### Screenshot
+### Screenshots
 
 ![Frontend Mentor QR code component](
 https://user-images.githubusercontent.com/87899775/155300072-92a27b95-f4e2-458c-9b74-5664435b2936.png)
+
+![Frontend Mentor QR code component Mobile](
+https://user-images.githubusercontent.com/87899775/155307444-c6554b72-523e-4988-bae4-31dc26d1cd50.png)
+
 
 ### Links
 
