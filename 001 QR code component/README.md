@@ -48,7 +48,7 @@ This is my first time using SCSS, that's why I chose a simple project to start
 off. I learned a lot about syntax of SCSS, which is very similar to CSS.
 
 Example of SCSS variables:
-```css
+```scss
 $font-size: 1rem; // 16px
 $dark-blue: hsl(218, 44%, 22%);
 $font-stack: 'Outfit', sans-serif;
