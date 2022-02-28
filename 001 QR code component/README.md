@@ -45,23 +45,16 @@ https://www.frontendmentor.io/solutions/qr-code-component-hLFH5K5_S)
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This is my first time using SCSS, that's why I chose a simple project to start
+off. I learned a lot about syntax of SCSS, which is very similar to CSS.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Example of SCSS variables:
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+$font-size: 1rem; // 16px
+$dark-blue: hsl(218, 44%, 22%);
+$font-stack: 'Outfit', sans-serif;
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
