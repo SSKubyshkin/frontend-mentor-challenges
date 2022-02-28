@@ -56,8 +56,8 @@ $font-stack: 'Outfit', sans-serif;
 
 ### Continued development
 
-In my future projects I'd like to use advanced SCSS features I haven't used
-in this project. Such as mixins.
+In my future projects I'd like to use more advanced SCSS features I haven't
+used in this project. Such as mixins.
 
 ### Useful resources
 
