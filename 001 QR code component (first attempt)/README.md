@@ -30,7 +30,7 @@ https://user-images.githubusercontent.com/87899775/155307444-c6554b72-523e-4988-
 
 - Solution URL: [Frontend Mentor](
 https://www.frontendmentor.io/solutions/qr-code-component-hLFH5K5_S)
-- Live Site URL: [Github Pages](https://sskubyshkin.github.io/frontend-mentor-challenges/001%20QR%20code%20component%20(first%20attempt)/)
+- Live Site URL: [GitHub Pages](https://sskubyshkin.github.io/frontend-mentor-challenges/001%20QR%20code%20component%20(first%20attempt)/)
 
 ## My process
 
