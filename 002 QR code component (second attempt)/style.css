@@ -11,6 +11,43 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.4;
+  min-height: 100vh;
+  background-color: #d6e2f0;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  max-width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5%;
+}
+.main .qr-code {
+  width: 100%;
+  padding: 16px;
+  border-radius: 10%;
+}
+.main .title {
+  color: #1f3251;
+  font-size: 1.3125rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0px 16px;
+  margin-top: 10px;
+}
+.main .description {
+  color: #7b879d;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 0px 16px;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

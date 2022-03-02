@@ -13,4 +13,45 @@ body {
 	margin: 0;
 	padding: 0;
 	line-height: 1.4;
+	min-height: 100vh;
+	background-color: $light-gray;
+	font-family: $font-stack;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+
+.main {
+	max-width: 320px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: $white;
+	border-radius: 5%;
+	
+	.qr-code {
+		width: 100%;
+		padding: 16px;
+		border-radius: 10%;
+	}
+	
+	.title {
+		color: $dark-blue;
+		font-size: $font-title;
+		font-weight: $weight-bold;
+		text-align: center;
+		padding: 0px 16px;
+		margin-top: 10px;
+	}
+
+	.description {
+		color: $grayish-blue;
+		font-size: $font-size;
+		font-weight: $weight-regular;
+		text-align: center;
+		padding: 0px 16px;
+		margin-top: 10px;
+	}
+}
+
