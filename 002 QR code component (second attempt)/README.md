@@ -71,4 +71,6 @@ Sass/Scss.
 
 ## Acknowledgments
 
-Many thanks to @PhoenixDev22 for the feedback on [my first attempt](https://www.frontendmentor.io/solutions/qr-code-component-hLFH5K5_S)!
+Many thanks to [@PhoenixDev22](https://github.com/PhoenixDev22)
+for the feedback on [my first attempt](
+https://www.frontendmentor.io/solutions/qr-code-component-hLFH5K5_S)!
