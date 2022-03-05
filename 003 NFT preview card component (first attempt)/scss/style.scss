@@ -1,3 +1,5 @@
+@import "variables";
+
 html {
 	font-size: 100%;
 	box-sizing: border-box;
@@ -10,5 +12,155 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-    line-height: 1.4;
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $main-bg;
+    font-family: $font-stack;
+    color: $soft-blue;
+    font-weight: $weight-regular;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 20.4375rem;
+    background-color: $card-bg;
+    border-radius: 1rem;
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
+
+    .img-wrapper {
+        position: relative;
+        margin-top: 1.5625rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+
+        .preview {
+            width: 100%;
+            border-radius: 0.625rem;
+        }
+        .eye-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            z-index: 2;
+        }
+
+        &:hover {
+            .eye-icon {
+                opacity: 1;
+            }
+        }
+
+        &::after {
+            content: "";
+            width: 100%;
+            height: 277px;
+            position: absolute;
+            top: 0; 
+            bottom: 0;
+            background: $cyan;
+            opacity: 0;
+            border-radius: 0.625rem;
+        }
+
+        &:hover::after {
+            opacity: 0.4;
+        }
+    }
+
+    .title {
+        color: $white;
+        font-size: $size-title;
+        font-weight: $weight-bold;
+        cursor: pointer;
+
+        &:hover {
+            color: $cyan;
+        }
+    }
+
+    .desc {
+        padding-top: 0.8125rem;
+        padding-bottom: 0.8125rem;
+    }
+
+    .title, .desc {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+
+    .info {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .price {
+            color: $cyan;
+            font-weight: $weight-bold;
+
+            .eth-icon {
+                position: relative;
+                right: 4px;
+                top: 3px;
+            }
+        }
+
+        .time {
+            .clock-icon {
+                position: relative;
+                right: 4px;
+                top: 3px;
+            }
+        }
+
+        p {
+            margin: 0;
+            padding: 0.3125rem;
+        }
+    }
+
+    hr {
+        color: $line;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .creator {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+
+        .avatar {
+            height: 2.25rem;
+            border: 2px solid $white;
+            border-radius: 50%;
+            margin: 1rem;
+            margin-left: 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .credit {
+            margin: 0;
+            align-self: center;
+
+            a {
+                text-decoration: none;
+                color: $white;
+                cursor: pointer;
+
+                &:hover {
+                    color: $cyan;
+                }
+            }
+        }
+    }
 }
