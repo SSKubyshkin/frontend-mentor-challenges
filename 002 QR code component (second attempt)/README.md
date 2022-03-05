@@ -26,7 +26,6 @@ https://user-images.githubusercontent.com/87899775/156512072-f5a7cea6-85f9-475f-
 ![Frontend Mentor QR code component Mobile](
 https://user-images.githubusercontent.com/87899775/156512081-a48a02ab-7586-4897-b7bb-7a767cd693a8.png)
 
-
 ### Links
 
 - Solution URL: [Frontend Mentor](
