@@ -1,6 +1,6 @@
 # Frontend Mentor Challenges
 
-Challenges from [frontendmentor.io](https://www.frontendmentor.io).
+Challenges from [frontendmentor.io](https://www.frontendmentor.io)
 
 ## Live previews of finished challenges:
 
