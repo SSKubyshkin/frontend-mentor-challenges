@@ -1,0 +1,138 @@
+/*# sourceMappingURL=style.css.map */g: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d192b;
+  font-family: "Outfit", sans-serif;
+  color: #8bacda;
+  font-weight: 400;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 20.4375rem;
+  background-color: #14253d;
+  border-radius: 1rem;
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
+}
+.main .img-wrapper {
+  position: relative;
+  margin-top: 1.5625rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.main .img-wrapper .preview {
+  width: 100%;
+  border-radius: 0.625rem;
+}
+.main .img-wrapper .eye-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: 2;
+}
+.main .img-wrapper:hover .eye-icon {
+  opacity: 1;
+}
+.main .img-wrapper::after {
+  content: "";
+  width: 100%;
+  height: 277px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: #00fff7;
+  opacity: 0;
+  border-radius: 0.625rem;
+}
+.main .img-wrapper:hover::after {
+  opacity: 0.4;
+}
+.main .title {
+  color: white;
+  font-size: 1.375rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.main .title:hover {
+  color: #00fff7;
+}
+.main .desc {
+  padding-top: 0.8125rem;
+  padding-bottom: 0.8125rem;
+}
+.main .title, .main .desc {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+.main .info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .info .price {
+  color: #00fff7;
+  font-weight: 600;
+}
+.main .info .price .eth-icon {
+  position: relative;
+  right: 4px;
+  top: 3px;
+}
+.main .info .time .clock-icon {
+  position: relative;
+  right: 4px;
+  top: 3px;
+}
+.main .info p {
+  margin: 0;
+  padding: 0.3125rem;
+}
+.main hr {
+  color: #2f415b;
+  width: 100%;
+  margin-bottom: 0;
+}
+.main .creator {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.main .creator .avatar {
+  height: 2.25rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 1rem;
+  margin-left: 0;
+  margin-bottom: 1.5rem;
+}
+.main .creator .credit {
+  margin: 0;
+  align-self: center;
+}
+.main .creator .credit a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.main .creator .credit a:hover {
+  color: #00fff7;
+}/*# sourceMappingURL=style.css.map */
