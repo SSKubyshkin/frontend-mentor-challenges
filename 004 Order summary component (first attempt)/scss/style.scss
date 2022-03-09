@@ -56,12 +56,13 @@ body {
         &__text {
             line-height: 1.7;
             font-size: $font-small;
+            margin-bottom: 40px;
         }
     }
     .order {
         width: 100%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
 
         &__image {
@@ -73,6 +74,7 @@ body {
             flex-direction: column;
             line-height: 0;
             align-items: center;
+            margin-left: 1rem;
 
             &__name {
                 font-size: $font-small;
@@ -89,14 +91,43 @@ body {
         &__change {
             font-size: $font-small;
             margin-left: 2rem;
+            color: $bright-blue;
+            font-weight: $weight-bold;
+
+            &:hover {
+                text-decoration: none;
+                opacity: 0.8;
+            }
         }
     }
     .buttons {
+        text-align: center;
+        font-size: $font-small;
+        font-weight: $weight-black;
+
         &__proceed {
             display: block;
+            background-color: $bright-blue;
+            text-decoration: none;
+            color: #fff;
+            padding: 13px 65px;
+            margin-top: 40px;
+            border-radius: 10px;
+
+            &:hover {
+                opacity: 0.8;
+            }
         }
+
         &__cancel {
             display: block;
+            color: $desaturated-blue;
+            text-decoration: none;
+            margin: 1.4375rem 4.0625rem 2rem 4.0625rem;
+
+            &:hover {
+                color: $dark-blue;
+            }
         }
     }
 }
