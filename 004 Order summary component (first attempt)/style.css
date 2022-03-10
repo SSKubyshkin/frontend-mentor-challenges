@@ -50,7 +50,7 @@ body {
 .main .description__text {
   line-height: 1.7;
   font-size: 0.9375rem;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 .main .order {
   width: 100%;
@@ -59,8 +59,8 @@ body {
   align-items: center;
 }
 .main .order__image {
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
 }
 .main .order__plan {
   flex-direction: column;
@@ -97,9 +97,10 @@ body {
   background-color: #3829e0;
   text-decoration: none;
   color: #fff;
-  padding: 13px 65px;
-  margin-top: 40px;
-  border-radius: 10px;
+  padding: 0.8125rem 4.0625rem;
+  margin-top: 2.5rem;
+  border-radius: 0.625rem;
+  transition: opacity 150ms ease-in-out;
 }
 .main .buttons__proceed:hover {
   opacity: 0.8;
@@ -109,6 +110,7 @@ body {
   color: #7280a7;
   text-decoration: none;
   margin: 1.4375rem 4.0625rem 2rem 4.0625rem;
+  transition: color 150ms ease-in-out;
 }
 .main .buttons__cancel:hover {
   color: #1f2f56;
